@@ -38,7 +38,7 @@ concordance.index(x, surv.time, surv.event, cl, weights, strat, alpha = 0.05, ou
 Pencina, M. J. and D'Agostino, R. B. (2004) "Overall C as a measure of discrimination in survival analysis: model specific population value and confidence interval estimation", \emph{Statistics in Medicine}, \bold{23}, pages 2109--2123, 2004.}
 \author{Benjamin Haibe-Kains}
 %\note{ ~~further notes~~ }
-\seealso{\code{\link[Hmisc]{rcorr.cens}}}
+\seealso{\code{\link[Hmisc]{rcorr.cens}}, \code{\link[CPE]{phcpe}}, \code{\link[clinfun]{coxphCPE}}}
 \examples{
 set.seed(12345)
 age <- rnorm(100, 50, 10)

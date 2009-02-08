@@ -12,8 +12,8 @@ Functions to perform the performance assessment and comparison of risk predictio
 \tabular{ll}{
 Package: \tab survcomp\cr
 Type: \tab Package\cr
-Version: \tab 1.1.2\cr
-Date: \tab 2009-04-21\cr
+Version: \tab 1.1.3\cr
+Date: \tab 2009-11-13\cr
 License: \tab GPL-3\cr
 }
 }

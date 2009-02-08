@@ -30,7 +30,7 @@ Fisher's z statistic
 \references{ R. A. Fisher (1915) "Frequency distribution of the values of the correlation coefficient in samples of an indefinitely large population". \emph{Biometrika}, \bold{10},pages 507--521. }
 \author{ Benjamin Haibe-Kains }
 %\note{}
-\seealso{ \code{\link[base]{cor}} }
+\seealso{ \code{\link[stats]{cor}} }
 \examples{
 set.seed(12345)
 x1 <- rnorm(100, 50, 10)

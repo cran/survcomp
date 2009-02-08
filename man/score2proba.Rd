@@ -26,7 +26,7 @@ score2proba(data.tr, score, yr, method = c("cox", "prodlim"), conf.int = 0.95, w
 Andersen, P. K. and Borgan, O. and Gill, R. D. and Keiding, N. (1993) "Statistical Models Based on Counting Processes", \emph{Springer}. }
 \author{ Benjamin Haibe-Kains }
 %\note{}
-\seealso{ \code{\link[survival]{cox}}, \code{\link[prodlim]{prodlim}} }
+\seealso{ \code{\link[survival]{coxph}}, \code{\link[prodlim]{prodlim}} }
 \examples{
 set.seed(12345)
 age <- rnorm(30, 50, 10)

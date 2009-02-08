@@ -1,7 +1,7 @@
 Package: survcomp
 Type: Package
 Title: Performance Assessment and Comparison for Survival Analysis
-Version: 1.1.2
+Version: 1.1.3
 Date: 2009
 Description: R package providing functions to assess and to compare the
         performance of risk prediction (survival) models.
@@ -12,6 +12,6 @@ Depends: survival, ipred, prodlim, survivalROC, SuppDists, bootstrap, R
 Suggests: Hmisc, Design
 License: GPL (>= 3)
 URL: http://www.ulb.ac.be/di/mlg
-Packaged: 2009-06-05 12:40:33 UTC; bhaibeka
+Packaged: 2009-11-13 08:50:56 UTC; bhaibeka
 Repository: CRAN
-Date/Publication: 2009-06-05 13:40:40
+Date/Publication: 2009-11-13 13:35:29

@@ -29,7 +29,7 @@ sbrier.score2proba(data.tr, data.ts, method = c("cox", "prodlim"))
 	Andersen, P. K. and Borgan, O. and Gill, R. D. and Keiding, N. (1993) "Statistical Models Based on Counting Processes", \emph{Springer}. }
 \author{ Benjamin Haibe-Kains }
 %\note{}
-\seealso{ \code{\link[ipred]{sbrier}}, \code{\link[survival]{cox}}, \code{\link[prodlim]{prodlim}} }
+\seealso{ \code{\link[ipred]{sbrier}}, \code{\link[survival]{coxph}}, \code{\link[prodlim]{prodlim}} }
 \examples{
 set.seed(12345)
 age <- rnorm(30, 50, 10)
