@@ -30,7 +30,7 @@ stime <- rexp(30)
 cens <- runif(30,.5,2)
 sevent <- as.numeric(stime <= cens)
 stime <- pmin(stime, cens)
-sf <- survfit(Surv(stime, sevent))
+sf <- survfit(Surv(stime, sevent) ~ 1)
 getsurv2(sf, time=1)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
