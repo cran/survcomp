@@ -6,7 +6,7 @@
   The function computes the log partial likelihood of a set of coefficients given some survival data.
 }
 \usage{
-logpl(surv.time, surv.event, beta, x, strata.cox = NULL, na.rm = FALSE, verbose = FALSE)
+logpl(x, surv.time, surv.event, strata, beta, na.rm = FALSE, verbose = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -14,13 +14,13 @@ logpl(surv.time, surv.event, beta, x, strata.cox = NULL, na.rm = FALSE, verbose 
   \item{surv.event}{ vector of indicators for event occurrence }
   \item{beta}{ vector of coefficients fitted by a Cox model for instance }
   \item{x}{ data matrix }
-  \item{strata.cox}{ stratification variable }
+  \item{strata}{ stratification variable }
   \item{na.rm}{ \code{TRUE} if the missing values should be removed from the data, \code{FALSE} otherwise }
   \item{verbose}{ verbosity of the function }
 }
 %\details{}
 \value{
-vectorof two elements: \code{logpl} and \code{event} for the estimation of the log partial likelihood and the number of events, respectively
+vector of two elements: \code{logpl} and \code{event} for the estimation of the log partial likelihood and the number of events, respectively
 }
 \references{ Cox, D. R. (1972) "Regression Models and Life Tables", \emph{Journal of the Royal Statistical Society Series B}, \bold{34}, pages 187--220. }
 \author{ Benjamin Haibe-Kains }

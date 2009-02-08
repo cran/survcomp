@@ -1,7 +1,7 @@
 \name{hazard.ratio}
 \alias{hazard.ratio}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Function to compute the D index}
+\title{Function to estimate the hazard ratio through Cox regression}
 \description{
 Function to compute the hazard ratio for a risk prediction.
 }

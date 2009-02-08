@@ -12,8 +12,8 @@ Functions to perform the performance assessment and comparison of risk predictio
 \tabular{ll}{
 Package: \tab survcomp\cr
 Type: \tab Package\cr
-Version: \tab 1.1.3\cr
-Date: \tab 2009-11-13\cr
+Version: \tab 1.1.6\cr
+Date: \tab 2010-08-23\cr
 License: \tab GPL-3\cr
 }
 }
@@ -21,11 +21,30 @@ License: \tab GPL-3\cr
 \author{
 Benjamin Haibe-Kains
 
-- Machine Learning Group (MLG), Universite Libre de Bruxelles, Bruxelles, Belgium \url{http://www.ulb.ac.be/di/mlg/}
+- Computational Biology and Functional Genomics Laboratory, Dana-Farber Cancer Institute, Boston, MA, USA
 
-- Functional Genomics Unit (FGU), Institut Jules Bordet, Bruxelles, Belgium \url{http://www.bordet.be/en/services/medical/array/practical.htm}
+\url{http://compbio.dfci.harvard.edu/}
 
-Maintainer: Benjamin Haibe-Kains <\email{bhaibeka@ulb.ac.be}>
+- Center for Cancer Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA
+
+\url{http://cccb.dfci.harvard.edu/index.html}
+
+Former labs:
+
+- Machine Learning Group (MLG), Universite Libre de Bruxelles, Bruxelles, Belgium 
+
+\url{http://www.ulb.ac.be/di/mlg/}
+
+- Breast Cancer Translational Research Laboratory (BCTRL), Institut Jules Bordet, Bruxelles, Belgium 
+
+\url{http://www.bordet.be/en/services/medical/array/practical.htm}
+
+
+\bold{Maintainer}: Benjamin Haibe-Kains
+
+\email{bhaibeka@jimmy.harvard.edu}
+
+\email{bhaibeka@ulb.ac.be}
 }
 %\references{}
 \keyword{ survival }

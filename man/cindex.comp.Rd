@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Function to compare two concordance indices}
 \description{
-This function compares two concordance indices computed from the same survival data by using the function \code{concordance.index}. The statistical test is a Student t test for dependent samples.
+This function compares two concordance indices computed from the same  data by using the function \code{concordance.index}. The statistical test is a Student t test for dependent samples.
 }
 \usage{
 cindex.comp(cindex1, cindex2)
@@ -21,7 +21,7 @@ cindex.comp(cindex1, cindex2)
   \item{cindex1 }{value of the first concordance index.}
   \item{cindex2 }{value of the second concordance index.}
 }
-\references{Haibe-Kains, B. and Desmedt, C. and Sotiriou, C. and Bontempi, G. (2008) "A comparative study of survival models for breast cancer prognostication based on microarray  data: does a single gene beat them all?", \emph{Bioinformatics}, \bold{24}, 19, pages 2200--2208.}
+\references{Haibe-Kains, B. and Desmedt, C. and Sotiriou, C. and Bontempi, G. (2008) "A comparative study of survival models for breast cancer prognostication based on microarray  data: does a single gene beat them all?", \emph{Bioinformatics}, \bold{24}(19), pages 2200--2208.}
 \author{ Benjamin Haibe-Kains}
 %\note{ ~~further notes~~ }
 \seealso{\code{\link{concordance.index}}.}

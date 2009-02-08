@@ -2,7 +2,8 @@
 function(list.cindex1, list.cindex2, hetero=FALSE) {
 
 	if(length(list.cindex1) != length(list.cindex2)) { stop("the number of concordance indices is not the same!") }
-
+	eps <- 1E-15
+	
 	n <- 0
 	x1 <- x1.se <- x2 <- x2.se <- corz <- corz.se <- NULL
 	for(i in 1:length(list.cindex1)) {
@@ -21,7 +22,7 @@ function(list.cindex1, list.cindex2, hetero=FALSE) {
 	x2.meta <- combine.est(x=x2, x.se=x2.se, hetero=hetero, na.rm=TRUE) 
 	r <- fisherz(combine.est(x=corz, x.se=corz.se, na.rm=TRUE, hetero=hetero)$estimate, inv=TRUE)
 
-	if(abs(r) < 1) {
+	if((1 - abs(r)) > eps) {
 		t.stat <- (x1.meta$estimate - x2.meta$estimate) / sqrt(x1.meta$se^2 + x2.meta$se^2 - 2 * r * x1.meta$se * x2.meta$se)
 		diff.ci.p <- pt(q=t.stat, df=n - 1, lower.tail=FALSE)
 	} else { diff.ci.p <- 1 }

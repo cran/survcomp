@@ -8,7 +8,7 @@ function(bsc1, bsc2, time) {
 	diffs <- c(time[1], time[2:length(time)] - time[1:(length(time) - 1)])
 	ibsc1 <- sum(diffs * bsc1) / max(time)
 	ibsc2 <- sum(diffs * bsc2) / max(time)
-	rr <- wilcox.test(x=bsc1, y=bsc2, alternative="greater", paired=TRUE, exact=FALSE)
+	rr <- wilcox.test(x=bsc1, y=bsc2, alternative="less", paired=TRUE, exact=FALSE)
 	return(list("p.value"=rr$p.value, "ibsc1"=ibsc1, "ibsc2"=ibsc2))
 }
 

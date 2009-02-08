@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Function to compute the concordance index for survival or binary class prediction}
 \description{
-Function to compute the concordance index for a risk prediction, i.e. the probability that, for a pair of randomly chosen comparable samples, the sample with the higher risk prediction will experienced an event before the other sample or belongs to a higher binary class.
+Function to compute the concordance index for a risk prediction, i.e. the probability that, for a pair of randomly chosen comparable samples, the sample with the higher risk prediction will experience an event before the other sample or belongs to a higher binary class.
 }
 \usage{
 concordance.index(x, surv.time, surv.event, cl, weights, strat, alpha = 0.05, outx = TRUE, method = c("conservative", "noether", "nam"), na.rm = FALSE)
