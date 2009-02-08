@@ -12,7 +12,7 @@ Functions to perform the performance assessment and comparison of risk predictio
 \tabular{ll}{
 Package: \tab survcomp\cr
 Type: \tab Package\cr
-Version: \tab 1.1.0\cr
+Version: \tab 1.1.2\cr
 Date: \tab 2009-04-21\cr
 License: \tab GPL-3\cr
 }
@@ -31,6 +31,6 @@ Maintainer: Benjamin Haibe-Kains <\email{bhaibeka@ulb.ac.be}>
 \keyword{ survival }
 \keyword{ htest }
 \seealso{
-\code{survival}, \code{Hmisc}, \code{Design}, \code{prodlim}, \code{survivalROC}, \code{ipred}
+\code{survival}, \code{Hmisc}, \code{Design}, \code{prodlim}, \code{survivalROC}, \code{ipred}, \code{bootstrap}
 }
 %\examples{}

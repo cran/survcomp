@@ -12,7 +12,7 @@ hazard.ratio(x, surv.time, surv.event, weights, strat, alpha = 0.05, na.rm = FAL
 \arguments{
   \item{x}{a vector of risk predictions.}
   \item{surv.time}{a vector of event times.}
-  \item{surv.event}{a vector of event occurence indicators.}
+  \item{surv.event}{a vector of event occurrence indicators.}
   \item{weights}{weight of each sample.}
   \item{strat}{stratification indicator.}
   \item{alpha}{apha level to compute confidence interval.}

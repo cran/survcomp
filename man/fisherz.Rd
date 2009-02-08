@@ -6,12 +6,13 @@
   The function computes the Fisher z transformation useful to calculate the confidence interval of Pearson's correlation coefficient.
 }
 \usage{
-fisherz(x, inv = FALSE)
+fisherz(x, inv = FALSE, eps = 1e-10)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{ value, e.g. Pearson's correlation coefficient }
   \item{inv}{ \code{TRUE} for inverse Fisher z transformation, \code{FALSE} otherwise }
+  \item{eps}{ tolerance for extreme cases, i.e. \deqn{latex}{|x| \approx 1} when inv = \code{FALSE} and \deqn{latex}{|x| \approx Inf} when inv = \code{TRUE} }
 }
 \details{
 The sampling distribution of Pearson's \eqn{latex}{\rho} is not normally distributed. R. A. Fisher developed a transformation now called \dQuote{Fisher's z transformation} that converts Pearson's \eqn{latex}{\rho} to the normally distributed variable z. The formula for the transformation is
